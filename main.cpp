@@ -45,7 +45,7 @@ double case1(double len1, double len2, double len3){
     double y1 = len2 * sin(q1);
 
     if(y1 < 0 || y2 < 0 || y3 < 0){
-        cout << "One of the arms goes below x-axis, try again.";
+        cout << "One of the arms goes below x-axis, try again.\n";
         return 0;
     }
 
@@ -95,7 +95,7 @@ double case2(double len1, double len2, double len3){
 
 
     if(y1 < 0 || y2 < 0 || y3 < 0){
-        cout << "One of the arms goes below x-axis, try again.";
+        cout << "One of the arms goes below x-axis, try again.\n";
         return 0;
     }
 
@@ -146,7 +146,7 @@ double case3(double len1, double len2, double len3){
 
 
     if(y1 < 0 || y2 < 0 || y3 < 0){
-        cout << "One of the arms goes below x-axis, try again.";
+        cout << "One of the arms goes below x-axis, try again.\n";
         return 0;
     }
 
