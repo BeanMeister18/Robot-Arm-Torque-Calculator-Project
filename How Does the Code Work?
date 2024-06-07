@@ -1,0 +1,8 @@
+Functionality of the program (Robot Arm Torque Calculator):
+
+The algorithm accepts 5 inputs: 
+- The x and y coordinates the arm needs to reach
+- The length of each individual arm section (3 separate sections)
+
+The program outputs the angles at which the three arm sections are positioned at relative to the x-axis, as well as the torque values of the base, elbow and wrist of the arm.
+There are three cases with different positions, which are described in the report.
